@@ -1,0 +1,73 @@
+body{
+    font-family: 'Oxygen',sans-serif;
+    background-color: #ccc0ed;
+}
+.content{
+    color:green;
+    text-align: left;
+}
+
+
+.footer{
+    background-color: blueviolet;
+}
+form {
+    padding: 1em;
+}
+label{
+    color:white;
+}
+input{
+    margin: 0.5e
+}
+input {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  .navbar{
+      width: 50%;
+      color: blue;
+  }
+ 
+  .title{
+      text-align: center;
+      color: orangered;
+  }
+  .intro{
+      text-align: center;
+      color: indigo;
+  }
+  p {
+    color: red;
+    text-align: center;
+  }
+  
+  .title-wrapper{
+      border: 5px solid green;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background-color: dodgerblue;
+      font-size: 20px;
+      padding: 1em;
+  }
+  .cpt{
+      height: 25px;
+      margin-top: -25px;
+  }
+   
+  .title > img{
+    width: 300px;
+    height: 300px;
+    padding: 0.1em;
+    box-sizing: border-box;
+
+    object-fit: cover;
+    border: 1px solid orange;
+
+}
+.feedback{
+    text-align: left;
+    color: orange;
+}
